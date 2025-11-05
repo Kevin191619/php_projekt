@@ -1,0 +1,172 @@
+[05-Nov-2025 09:37:55 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(17): preg_match('', '0', 0, true, 'kevin')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 09:38:22 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(17): preg_match('', '0', 0, true, 'kevin')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 09:38:37 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:9
+Stack trace:
+#0 /opt/code/projekt.php(9): preg_match('', '0', 0, true, 'afasdfa')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 9
+[05-Nov-2025 09:39:57 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 0, true, 'fasfa')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:42:09 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('1', '0', 1, true, 'asdfasdfa')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:44:10 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 1, 0, 'adfadfa')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:47:35 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 1, 0, 'fs')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:48:06 UTC] PHP Warning:  preg_match(): Empty regular expression in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:48:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: preg_match() expects at least 2 arguments, 1 given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match(false)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:50:59 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #4 ($flags) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 0, 'sfds')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:51:07 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #4 ($flags) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 0, 'asdfaf')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:51:20 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #4 ($flags) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('1', '1', 0, 'ASDFASFDAS')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:52:35 UTC] PHP Fatal error:  Uncaught TypeError: preg_match(): Argument #5 ($offset) must be of type int, string given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match('', '0', 0, 0, 'asdf')
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:53:02 UTC] PHP Warning:  preg_match(): Empty regular expression in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:53:10 UTC] PHP Warning:  preg_match(): Empty regular expression in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:55:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: preg_match() expects at least 2 arguments, 1 given in /opt/code/projekt.php:10
+Stack trace:
+#0 /opt/code/projekt.php(10): preg_match(0)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:58:58 UTC] PHP Warning:  Undefined variable $nospace in /opt/code/projekt.php on line 10
+[05-Nov-2025 09:59:26 UTC] PHP Warning:  Undefined variable $nospace in /opt/code/projekt.php on line 10
+[05-Nov-2025 12:09:44 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:16
+Stack trace:
+#0 /opt/code/projekt.php(29): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 16
+[05-Nov-2025 12:09:46 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:16
+Stack trace:
+#0 /opt/code/projekt.php(29): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 16
+[05-Nov-2025 12:12:03 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:16
+Stack trace:
+#0 /opt/code/projekt.php(29): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 16
+[05-Nov-2025 12:12:05 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:16
+Stack trace:
+#0 /opt/code/projekt.php(29): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 16
+[05-Nov-2025 12:13:11 UTC] PHP Fatal error:  Cannot redeclare function randomPassword() (previously declared in /opt/code/projekt.php:13) in /opt/code/projekt.php on line 43
+[05-Nov-2025 12:13:12 UTC] PHP Fatal error:  Cannot redeclare function randomPassword() (previously declared in /opt/code/projekt.php:13) in /opt/code/projekt.php on line 43
+[05-Nov-2025 12:17:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:17:39 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:36:40 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:18
+Stack trace:
+#0 /opt/code/projekt.php(31): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 18
+[05-Nov-2025 12:41:25 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:43:21 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:47:25 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:47:55 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:48:05 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /opt/code/projekt.php:17
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 17
+[05-Nov-2025 12:52:07 UTC] PHP Fatal error:  Uncaught TypeError: randomPassword(): Return value must be of type string, array returned in /opt/code/projekt.php:20
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 20
+[05-Nov-2025 12:52:57 UTC] PHP Fatal error:  Uncaught TypeError: randomPassword(): Return value must be of type string, array returned in /opt/code/projekt.php:20
+Stack trace:
+#0 /opt/code/projekt.php(30): randomPassword(12)
+#1 {main}
+  thrown in /opt/code/projekt.php on line 20
+[05-Nov-2025 13:15:47 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 7
+[05-Nov-2025 13:15:47 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/code/projekt.php on line 7
+[05-Nov-2025 13:15:47 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 8
+[05-Nov-2025 13:15:47 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 8
+[05-Nov-2025 13:15:47 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 9
+[05-Nov-2025 13:15:47 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 9
+[05-Nov-2025 13:15:47 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 10
+[05-Nov-2025 13:15:47 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 10
+[05-Nov-2025 13:15:49 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 7
+[05-Nov-2025 13:15:49 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/code/projekt.php on line 7
+[05-Nov-2025 13:15:49 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 8
+[05-Nov-2025 13:15:49 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 8
+[05-Nov-2025 13:15:49 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 9
+[05-Nov-2025 13:15:49 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 9
+[05-Nov-2025 13:15:49 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 10
+[05-Nov-2025 13:15:49 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 10
+[05-Nov-2025 13:16:24 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:16:24 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:16:28 UTC] PHP Warning:  Undefined variable $pw in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:16:28 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:24:53 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 28
+[05-Nov-2025 13:24:53 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:25:10 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 28
+[05-Nov-2025 13:25:10 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 30
+[05-Nov-2025 13:25:47 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 28
+[05-Nov-2025 13:25:47 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 30
+[05-Nov-2025 14:20:11 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 31
+[05-Nov-2025 14:20:18 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 31
+[05-Nov-2025 14:20:23 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 31
+[05-Nov-2025 14:20:30 UTC] PHP Warning:  Undefined variable $minLength in /opt/code/projekt.php on line 31

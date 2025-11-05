@@ -1,0 +1,4 @@
+Idee:
+Ich möchte mein Passwort eingeben und wenn es den Anforderungen entspricht,
+sagt er das dieses Passwort stark ist und wenn nicht, generiert er eins für
+mich welches den Anforderungen entspricht.
