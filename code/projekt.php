@@ -4,10 +4,10 @@
 $password = readline("Bitte gebe dein Passwort ein: ");
 
 //Passwort Vorgaben
-$minLengthStrong = strlen($password) >= 16;
-$capitalLetter = preg_match("/[A-Z]/", $password) === 1;
-$specialchar = preg_match("/[!\?\-\_\*\+\&\^\%]/", $password) === 1;
-$noWhitespace = preg_match("/\s/", $password) === 0;
+    $minLengthStrong = strlen($password) >= 16;
+    $capitalLetter = preg_match("/[A-Z]/", $password) === 1;
+    $specialchar = preg_match("/[!\?\-\_\*\+\&\^\%]/", $password) === 1;
+    $noWhitespace = preg_match("/\s/", $password) === 0;
 
 //Random Passwort Vorgaben
 function randomPassword(int $length = 16): string {
@@ -34,8 +34,9 @@ echo $suggestion . "\n" ;
 }
 
 //Eintrag speichern in .txt File
+$hash = password_hash($password, PASSWORD_DEFAULT);
 $filename = 'passwort_log.txt';
-$logEntry = date('Y-m-d H:i:s') . " - Passwort: " . $password . "\n";
+$logEntry = date('Y-m-d H:i:s') . " - Passwort: " . $hash . "\n";
 file_put_contents($filename, $logEntry, FILE_APPEND);
 
 
